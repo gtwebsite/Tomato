@@ -1,0 +1,131 @@
+#page-wrapper {
+	min-width:inherit;
+}
+
+/* =Screen specifics
+----------------------------------------------- */
+@media (max-width: 1080px) {
+	#access .uk-navbar-nav > li > a {
+		padding:0 20px;
+	}
+	#social {
+		padding: 0 10px;
+		margin: 0 0 0 10px;
+	}
+	.widget_search input[type=text] {
+		width:70%;
+	}
+}
+@media (max-width: 959px) {
+	#access, #social, #access .uk-navbar-brand {
+		height:50px;
+		line-height:45px;
+		overflow:hidden;
+	}
+	#access .uk-navbar-brand {
+		margin-top:0;
+	}
+	#access .uk-navbar-brand img {
+		height:40px;
+		width:auto;
+	}
+	#access .uk-navbar-brand:after {
+		top:0;
+	}
+	#social {
+		background:none;
+	}
+	#page-block {
+		margin-top:0;
+	}
+	#newsletter, #newsletter .uk-text-right {
+		text-align:center!important;
+	}
+}
+@media (min-width: 768px) {
+	.pull-border-right {
+		border-right:1px solid #eee;
+		border-left:0!important;
+	}
+}
+@media (max-width: 767px) {
+	.cyon-block {
+		margin:40px 0;
+	}
+	#access .uk-navbar-brand {
+		text-align:center;
+		max-width:50%;
+		margin:0 auto;
+		float:none;
+		padding:0;
+	}
+	#access .uk-navbar-toggle {
+		margin-right:-50px;
+	}
+	#static-block .text-main {
+		padding:40px;
+	}
+	#slider-block h1 {
+		font-size:200%;
+	}
+	#slider-block p span {
+		font-size:100%;
+		line-height:1.7em;
+	}
+	.archive article.portfolio-col-1 .entry-thumbnail {
+		float:none;
+	}
+	.archive article.portfolio-col-1 .uk-container:after, .archive article.portfolio-col-1 .uk-clearfix:after {
+		clear:both;
+	}
+	#secondary h3 {
+		margin-top:10px;
+		padding-top:10px;
+		border-top:3px solid #eee;
+	}
+	.widget_search input[type=text] {
+		width:auto;
+	}
+	#footer-buckets h3 {
+		margin-top:10px;
+		padding-top:10px;
+		border-top:3px solid #3d4045;
+	}
+	#footer-buckets .widget:first-child h3 {
+		margin-top:0;
+		padding-top:0;
+		border-top:0;
+	}
+	#footer-nav div {
+		text-align:center;
+	}
+	#access2 ul {
+		margin-top:10px;
+		float:none;
+	}
+	#social {
+		margin-left:0 !important;
+	}
+}
+@media (max-width:480px) {
+	#slider-block .swiper-caption {
+		width:90%;
+		padding:0 5%;
+		bottom:20px;
+	}
+	#slider-block h1 {
+		margin-bottom:0;
+		font-size:160%;
+	}
+	#slider-block p span {
+		line-height:1.5em;
+	}
+	.uk-hidden-mini {
+		display:none !important;
+	}
+}
+@media (min-width:481px) {
+	.uk-visible-mini {
+		display:none !important;
+	}
+}
